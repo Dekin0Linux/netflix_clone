@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./backg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    font-family: Inter;
+}
+#overlay{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.532) 180%, rgba(23, 23, 23, 0.876) 100%);
+    z-index: -2;
+}
+#row1 img{
+    width: 100px;
+}
+p,h2{
+    color: white;
+}
+#row1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+#row1 a{
+    background-color: rgb(237, 0, 0);
+    text-decoration: none;
+    padding: 4px 7px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-family: Roboto Condensed ;
+}
+#center{
+    width: 50%;
+    margin: 250px auto;
+}
+#center{
+    text-align: center;
+}
+#center h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+#center .lower_p{
+    font-size: 12px;
+    margin: 15px 0px;
+    color: rgb(231, 231, 231);
+}
+.form input,button{
+    margin: 0px;
+    padding: 10px;
+}
+.form input{
+    width: 55%;
+    outline: none;
+
+}
+.form button{
+    background-color: rgb(237, 0, 0);
+    color: white;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    outline: none;
+}
